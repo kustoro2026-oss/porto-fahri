@@ -280,10 +280,6 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
                   <hr className="border-zinc-200 dark:border-zinc-800 my-6" />
 
                   <ul className="text-zinc-600 dark:text-zinc-300 text-xs sm:text-sm space-y-3 mb-8 font-semibold">
-                    <li className="flex items-start gap-2.5 text-amber-600 dark:text-amber-400 font-bold">
-                      <Zap size={16} className="shrink-0 mt-0.5" />
-                      <span>{t("Sistem Manajemen Bisnis Kompleks (ERP / CRM / HRIS)", "Complex Business Management System (ERP / CRM / HRIS)")}</span>
-                    </li>
                     <li className="flex items-start gap-2.5">
                       <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
                       <span>{t("Integrasi Multi-Cabang, Inventori & Multi-Gudang", "Multi-Branch, Inventory & Multi-Warehouse Integration")}</span>
