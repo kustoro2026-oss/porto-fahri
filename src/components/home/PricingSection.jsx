@@ -160,15 +160,7 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
                     </li>
                     <li className="flex items-start gap-2.5">
                       <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Copywriting Hipnotik & Desain Kustom Figma", "Hypnotic Copywriting & Custom Figma Design")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
                       <span>{t("Premium Domain (.com) selama 1 Tahun", "Premium Domain (.com) for 1 Year")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Cloud Hosting Unlimited Bandwidth", "Cloud Hosting Unlimited Bandwidth")}</span>
                     </li>
                     <li className="flex items-start gap-2.5">
                       <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
@@ -298,7 +290,7 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
                     </li>
                     <li className="flex items-start gap-2.5">
                       <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Integrasi API Pihak Ketiga & Payment Gateway Otomatis", "Third-Party API Integration & Automatic Payment Gateway")}</span>
+                      <span>{t("Integrasi API Pihak Ketiga", "Third-Party API Integration")}</span>
                     </li>
                     <li className="flex items-start gap-2.5">
                       <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
