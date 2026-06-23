@@ -482,7 +482,7 @@ function LoginScreen({ onLogin, phoneTheme, setPhoneTheme }) {
 
       {/* Lockscreen footnote */}
       <p className={`text-[7px] font-black text-center mt-4 uppercase tracking-[0.2em] ${phoneTheme === 'dark' ? 'text-zinc-700' : 'text-zinc-450'}`}>
-        GapaiDigital Portal Security
+        Grow with Fakhri Portal Security
       </p>
     </div>
   );

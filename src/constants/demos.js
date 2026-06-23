@@ -15,7 +15,7 @@ export const demos = [
   {
     id: "starbucks",
     name: "Starbucks",
-    path: "/coffee",
+    path: "https://demo.com/",
     desc: {
       id: "Landing Page Informasi & Galeri Coffee Shop",
       en: "Coffee Shop Information & Gallery Landing Page"
@@ -39,7 +39,7 @@ export const demos = [
   {
     id: "aryamotor",
     name: "UD Arya Motor",
-    path: "/rental",
+    path: "https://demo.com/",
     desc: {
       id: "Jual Beli Motor Bekas Berkualitas di Tulungagung",
       en: "Quality Used Motorcycle Dealership in Tulungagung"
@@ -63,7 +63,7 @@ export const demos = [
   {
     id: "hotel",
     name: "Crown Victoria",
-    path: "/hotel",
+    path: "https://demo.com/",
     desc: {
       id: "Website Hotel Bintang 4 Tulungagung + Planner Event",
       en: "4-Star Hotel Website in Tulungagung + Event Planner"
@@ -87,7 +87,7 @@ export const demos = [
   {
     id: "nikoniko",
     name: "Niko-Niko Ramen",
-    path: "/resto",
+    path: "https://demo.com/",
     desc: {
       id: "Website Ramen Jepang Kediri + Custom Order",
       en: "Japanese Ramen Website in Kediri + Custom Order"
@@ -111,7 +111,7 @@ export const demos = [
   {
     id: "unita",
     name: "Universitas Tulungagung",
-    path: "/unita",
+    path: "https://demo.com/",
     desc: {
       id: "Landing page kampus UNITA — Akreditasi B, Est. 1984",
       en: "UNITA Campus Landing Page — B Accreditation, Est. 1984"
@@ -135,7 +135,7 @@ export const demos = [
   {
     id: "aiolaundry",
     name: "Aio Laundry Express",
-    path: "/laundry",
+    path: "https://demo.com/",
     desc: {
       id: "Aio Laundry Express Antar Jemput Tulungagung",
       en: "Aio Laundry Express Pickup & Delivery Tulungagung"
@@ -159,7 +159,7 @@ export const demos = [
   {
     id: "umroh",
     name: "Jabal Noor.official",
-    path: "/umroh",
+    path: "https://demo.com/",
     desc: {
       id: "Biro Perjalanan Haji & Umroh Terpercaya di Trenggalek",
       en: "Trusted Hajj & Umrah Travel Agency in Trenggalek"
@@ -183,7 +183,7 @@ export const demos = [
   {
     id: "akademik",
     name: "Sistem Akademik",
-    path: "/akademik",
+    path: "https://demo.com/",
     desc: {
       id: "Management sekolah + absensi geolocation",
       en: "School Management + Geolocation Attendance"
@@ -207,7 +207,7 @@ export const demos = [
   {
     id: "warungos",
     name: "WarungOS",
-    path: "/warungos",
+    path: "https://demo.com/",
     desc: {
       id: "Sistem Kasir & Stok Toko Klontong Modern",
       en: "Modern Grocery Shop Cashier & Stock System"
@@ -231,7 +231,7 @@ export const demos = [
   {
     id: "examos",
     name: "ExamOS",
-    path: "/examos",
+    path: "https://demo.com/",
     desc: {
       id: "Platform Ujian Online & Bank Soal Modern",
       en: "Online Examination & Modern Question Bank Platform"
@@ -255,7 +255,7 @@ export const demos = [
   {
     id: "absenos",
     name: "AbsenOS",
-    path: "/absenos",
+    path: "https://demo.com/",
     desc: {
       id: "Absensi Mobile dengan Biometrik & Geolocation",
       en: "Mobile Attendance with Biometric & Geolocation"

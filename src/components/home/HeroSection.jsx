@@ -137,8 +137,8 @@ export default function HeroSection() {
             className="mt-4 text-xs md:text-sm leading-relaxed text-zinc-600 dark:text-zinc-400 max-w-xl text-center font-medium"
           >
             {t(
-              "GapaiDigital adalah startup digitalisasi modern yang membantu membangun Landing Page, Aplikasi Mobile, hingga Sistem Web Custom untuk mempercepat pertumbuhan bisnis Anda.",
-              "GapaiDigital is a modern digitalization startup that helps build Landing Pages, Mobile Apps, and Custom Web Systems to accelerate your business growth."
+              "Grow with Fakhri adalah startup digitalisasi modern yang membantu membangun Landing Page, Aplikasi Mobile, hingga Sistem Web Custom untuk mempercepat pertumbuhan bisnis Anda.",
+              "Grow with Fakhri is a modern digitalization startup that helps build Landing Pages, Mobile Apps, and Custom Web Systems to accelerate your business growth."
             )}
           </motion.p>
 
@@ -151,7 +151,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-3 mt-5 md:mt-7 justify-center w-full sm:w-auto"
           >
             <a
-              href="https://wa.me/6285707185783?text=Halo%20saya%20ingin%20konsultasi"
+              href="https://wa.me/628818786988?text=Halo%20saya%20ingin%20konsultasi"
               target="_blank"
               rel="noopener noreferrer"
               className="group/btn relative bg-gradient-to-r from-amber-500 to-orange-500 text-white px-6 py-2.5 rounded-full text-xs md:text-sm font-bold transition-all duration-300 hover:scale-[1.03] shadow-lg shadow-amber-500/15 active:scale-95 overflow-hidden flex items-center justify-center gap-2"

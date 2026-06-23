@@ -497,7 +497,7 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
                   </h2>
                 </div>
                 <a 
-                  href="https://wa.me/6285707185783?text=Halo%20Rafi,%20saya%20tertarik%20untuk%20diskusi%20lebih%20lanjut%20mengenai%20pembuatan%20Custom%20Project" 
+                  href="https://wa.me/628818786988?text=Halo%20Fakhri,%20saya%20tertarik%20untuk%20diskusi%20lebih%20lanjut%20mengenai%20pembuatan%20Custom%20Project" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto text-center bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-white px-8 py-4 rounded-2xl text-sm font-black transition-all shadow-lg hover:shadow-amber-500/25 hover:scale-[1.05]"

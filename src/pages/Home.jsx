@@ -24,7 +24,7 @@ export default function Home() {
   const [pricingTab, setPricingTab] = useState("landingpage");
 
   const waLink =
-    "https://wa.me/6285707185783?text=Halo%20saya%20tertarik%20dengan%20paket%20website";
+    "https://wa.me/628818786988?text=Halo%20saya%20tertarik%20dengan%20paket%20website";
 
   const filtered =
     filter === "all"

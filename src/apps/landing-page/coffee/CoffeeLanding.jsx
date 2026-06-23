@@ -30,7 +30,7 @@ export default function CoffeeLanding() {
   const btnRef = useRef(null);
   const imageRef = useRef(null);
 
-  const phone = "6285707185783"; // Rafi's WhatsApp number
+  const phone = "628818786988"; // WhatsApp
   const waLink = `https://wa.me/${phone}`;
 
   const [menuTab, setMenuTab] = useState("beverages");

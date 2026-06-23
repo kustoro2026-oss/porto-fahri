@@ -34,7 +34,7 @@ export default function RestoLanding() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const data = resto;
   
-  const phone = "6285707185783"; // Rafi's developer contact
+  const phone = "628818786988"; // Developer contact
 
   // Interactive Ramen Builder States
   const [broth, setBroth] = useState("Original Tonkotsu (Pork-free)");
@@ -746,7 +746,7 @@ Mohon diproses untuk pengiriman. Terima kasih!`;
           </div>
           
           <div className="text-stone-600 text-xs font-bold uppercase tracking-wider">
-            © {new Date().getFullYear()} Niko-Niko Ramen Pare. Website Developed by GapaiDigital.
+            © {new Date().getFullYear()} Niko-Niko Ramen Pare. Website Developed by Grow with Fakhri.
           </div>
         </div>
       </footer>

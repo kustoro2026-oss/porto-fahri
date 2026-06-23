@@ -47,7 +47,7 @@ export default function HotelLanding() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const data = hotel || { name: "Crown Victoria Hotel", hero: { title: "Crown Victoria Hotel", subtitle: "Victorian Luxury 4-Star Experience" } };
   
-  const phone = "6285707185783"; // Rafi's developer/owner contact
+  const phone = "628818786988"; // Developer contact
 
   // Booking states
   const [checkIn, setCheckIn] = useState("");
@@ -670,7 +670,7 @@ Mohon info harga paket dan tanggal kosong terdekat. Terima kasih.`;
           </div>
           <div className="w-full h-px bg-white/5 mb-8" />
           <p className="text-zinc-600 text-xs uppercase tracking-widest font-bold">
-            © {new Date().getFullYear()} Crown Victoria Hotel Tulungagung. Website Developed by GapaiDigital.
+            © {new Date().getFullYear()} Crown Victoria Hotel Tulungagung. Website Developed by Grow with Fakhri.
           </p>
         </div>
       </footer>

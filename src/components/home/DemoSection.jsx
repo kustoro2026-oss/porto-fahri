@@ -194,7 +194,7 @@ export default function DemoSection({ filter, setFilter, filtered }) {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <div className="h-px w-12 bg-zinc-200 dark:bg-white/10 hidden sm:block" />
             <a 
-              href="https://wa.me/6285707185783?text=Halo%20saya%20ingin%20konsultasi%20project"
+              href="https://wa.me/628818786988?text=Halo%20saya%20ingin%20konsultasi%20project"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 text-black dark:text-white font-bold hover:text-amber-500 dark:hover:text-amber-400 transition-colors"

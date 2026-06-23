@@ -8,7 +8,7 @@ export const resto = {
   },
   address: "Jl. Anyelir No. 18, Kec. Pare, Kabupaten Kediri, Jawa Timur",
   hours: "Setiap Hari (kecuali Minggu): 12.30 – 21.30 WIB",
-  phone: "6285707185783",
+  phone: "628818786988",
   concept:
     "Kedai ramen bergaya Jepang dengan ornamen pohon sakura, area open kitchen, dan pilihan tempat duduk: mini bar, lesehan, hingga meja panjang. Cocok untuk makan santai, ngerjain tugas, atau hangout bareng teman.",
   stats: [

@@ -92,7 +92,7 @@ export default function Navbar() {
       {/* MAIN BAR */}
       <div className="backdrop-blur-xl bg-white/70 dark:bg-zinc-950/70 border border-black/10 dark:border-white/10 rounded-full px-4 md:px-6 py-3 flex justify-between items-center shadow-lg transition-colors duration-300">
         <h1 className="font-heading font-extrabold text-base tracking-tight text-black dark:text-white">
-          Gapai<span className="text-amber-500">Digital</span>
+          Grow with <span className="text-amber-500">Fakhri</span>
         </h1>
 
         {/* MENU */}

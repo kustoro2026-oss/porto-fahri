@@ -32,7 +32,7 @@ export default function Footer() {
             </p>
           </div>
           <a
-            href="https://wa.me/6285707185783"
+            href="https://wa.me/628818786988"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-full font-bold transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/25 group whitespace-nowrap"
@@ -46,7 +46,7 @@ export default function Footer() {
           {/* BRAND (LEFT) */}
           <div className="space-y-4 lg:col-span-1">
             <h2 className="text-2xl font-black text-black dark:text-white">
-              Gapai<span className="text-amber-500">Digital</span>
+              Grow with <span className="text-amber-500">Fakhri</span>
             </h2>
 
             <p className="text-zinc-600 dark:text-zinc-400 text-sm leading-relaxed font-medium">
@@ -126,7 +126,7 @@ export default function Footer() {
             <ul className="space-y-4 text-zinc-600 dark:text-zinc-400 text-sm font-medium">
               <li>
                 <a
-                  href="https://wa.me/6285707185783"
+                  href="https://wa.me/628818786988"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-3 hover:text-amber-500 transition-colors duration-300"
@@ -140,7 +140,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="https://instagram.com/gapaidigital"
+                  href="https://www.instagram.com/growwithfakhri"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-3 hover:text-amber-500 transition-colors duration-300"
@@ -154,13 +154,13 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="mailto:gapaidigital@gmail.com"
+                  href="mailto:pakreal100@gmail.com"
                   className="group flex items-center gap-3 hover:text-amber-500 transition-colors duration-300"
                 >
                   <div className="p-2 bg-zinc-100 dark:bg-zinc-800 rounded-full group-hover:bg-amber-500/10 group-hover:text-amber-500 transition-colors">
                     <Mail className="w-4 h-4" />
                   </div>
-                  <span className="group-hover:translate-x-1 transition-transform duration-300">gapaidigital@gmail.com</span>
+                  <span className="group-hover:translate-x-1 transition-transform duration-300">pakreal100@gmail.com</span>
                 </a>
               </li>
             </ul>
@@ -169,7 +169,7 @@ export default function Footer() {
 
         {/* LINE & COPYRIGHT */}
         <div className="mt-16 pt-8 border-t border-black/10 dark:border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-zinc-500 dark:text-zinc-500 text-xs font-medium">
-          <p>© {new Date().getFullYear()} GapaiDigital. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Grow with Fakhri. All rights reserved.</p>
           <p className="flex items-center gap-1.5">
             {t("Solusi Website & Aplikasi Profesional untuk Bisnis Modern", "Professional Website & App Solutions for Modern Businesses")} 
           </p>

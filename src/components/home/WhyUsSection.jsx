@@ -29,7 +29,7 @@ export default function WhyUsSection() {
     },
     {
       type: "gapai",
-      title: t("GapaiDigital", "GapaiDigital"),
+      title: t("Grow with Fakhri", "Grow with Fakhri"),
       icon: ShieldCheck,
       iconColor: "text-amber-500",
       bgClass: "bg-[#0a0a0a] border-amber-500/30 shadow-2xl shadow-amber-500/10 z-10 relative overflow-hidden",

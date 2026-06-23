@@ -1,15 +1,15 @@
 import { ExternalLink, Send } from "lucide-react";
 import { useLanguage } from "../../context/LanguageContext";
-import founderPortrait from "../../assets/foto formal.jpg";
+import founderPortrait from "../../../fahri.jpeg";
 import { motion } from "framer-motion";
 
 export default function FounderSection() {
   const { t } = useLanguage();
   // CONFIGURABLE LINKS - Silakan ubah URL di bawah ini sesuai keinginan Anda
-  const portfolioUrl = "https://website-profile-react.vercel.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnUVJ8I1A5zVVGCgB5W7plomzM5RRp7ppn3IqwgT5QFrbQaI1jZmmVOwaB1As_aem_FeRrnkq3nQfVmpCoe8hsvw";
-  const githubUrl = "https://github.com/rafirachmawan";
-  const instagramUrl = "https://www.instagram.com/rrrafi.rachmawan/";
-  const linkedinUrl = "https://www.linkedin.com/in/rafi-rachmawan-2a8728233/";
+  const portfolioUrl = "https://demo.com/";
+  const githubUrl = "https://github.com/";
+  const instagramUrl = "https://www.instagram.com/growwithfakhri";
+  const linkedinUrl = "https://www.linkedin.com/in/fakhri-zaini";
 
   return (
     <section id="founder" className="relative py-24 overflow-hidden border-t border-black/5 dark:border-white/5 bg-zinc-50/20 dark:bg-transparent">
@@ -67,7 +67,7 @@ export default function FounderSection() {
               <div className="relative rounded-[2rem] overflow-hidden aspect-[4/5] border border-black/5 dark:border-white/5">
                 <img 
                   src={founderPortrait} 
-                  alt="Rafi Rachmawan" 
+                  alt="Fakhri Zaini" 
                   className="w-full h-full object-cover object-top grayscale-[20%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
                 />
                 
@@ -76,7 +76,7 @@ export default function FounderSection() {
                 
                 {/* Quick identity on photo */}
                 <div className="absolute bottom-5 left-5 right-5 text-left text-white">
-                  <h3 className="text-lg font-black tracking-tight">Rafi Rachmawan</h3>
+                  <h3 className="text-lg font-black tracking-tight">Fakhri Zaini</h3>
                   <p className="text-[10px] font-bold text-amber-400 uppercase tracking-widest mt-0.5">Founder & Lead Developer</p>
                 </div>
               </div>
@@ -139,7 +139,7 @@ export default function FounderSection() {
 
             <div className="space-y-4 text-zinc-600 dark:text-zinc-300 text-xs sm:text-sm font-semibold leading-relaxed">
               <p>
-                {t("Halo! Saya Rafi Rachmawan, orang di balik layar GapaiDigital. Sejak awal membangun agensi ini, misi saya adalah memberikan solusi digital berkualitas kelas enterprise untuk bisnis lokal, UMKM, dan personal branding tanpa membebani anggaran Anda.", "Hello! I am Rafi Rachmawan, the person behind GapaiDigital. Since establishing this agency, my mission has been to provide enterprise-grade, high-quality digital solutions for local businesses, MSMEs, and personal branding without straining your budget.")}
+                {t("Halo! Saya Fakhri Zaini, orang di balik layar Grow with Fakhri. Sejak awal membangun agensi ini, misi saya adalah memberikan solusi digital berkualitas kelas enterprise untuk bisnis lokal, UMKM, dan personal branding tanpa membebani anggaran Anda.", "Hello! I am Fakhri Zaini, the person behind Grow with Fakhri. Since establishing this agency, my mission has been to provide enterprise-grade, high-quality digital solutions for local businesses, MSMEs, and personal branding without straining your budget.")}
               </p>
               <p>
                 {t("Setiap baris kode, arsitektur database, desain antarmuka, hingga performa SEO saya awasi dan kembangkan secara personal bersama tim untuk memastikan website dan aplikasi Anda memiliki kualitas terbaik—cepat, responsif, dan aman.", "Every line of code, database architecture, interface design, to SEO performance is personally supervised and developed by me alongside the team to ensure your website and app have the best quality—fast, responsive, and secure.")}
@@ -161,7 +161,7 @@ export default function FounderSection() {
               </a>
 
               <a
-                href="https://wa.me/6285707185783?text=Halo%20Rafi,%20saya%20ingin%20berdiskusi%20mengenai%20project%20custom"
+                href="https://wa.me/628818786988?text=Halo%20Fakhri,%20saya%20ingin%20berdiskusi%20mengenai%20project%20custom"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl border border-black/10 dark:border-white/10 hover:border-amber-500/30 bg-black/[0.02] dark:bg-white/5 hover:bg-black/[0.05] dark:hover:bg-white/10 text-zinc-800 dark:text-white font-bold text-xs sm:text-sm hover:scale-[1.02] transition-all"

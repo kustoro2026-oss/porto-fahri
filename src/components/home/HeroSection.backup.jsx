@@ -32,7 +32,7 @@ export default function HeroSection() {
           {/* BUTTON */}
           <div className="flex flex-wrap gap-3 md:gap-4 mt-7 md:mt-8">
             <a
-              href="https://wa.me/6285707185783?text=Halo%20saya%20ingin%20konsultasi"
+              href="https://wa.me/628818786988?text=Halo%20saya%20ingin%20konsultasi"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-amber-500 hover:bg-amber-400 text-black px-5 md:px-6 py-2.5 md:py-3 rounded-full text-sm md:text-base font-semibold transition duration-300 hover:scale-[1.02]"
