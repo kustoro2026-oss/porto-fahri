@@ -45,7 +45,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-left">
           {/* BRAND (LEFT) */}
           <div className="space-y-4 lg:col-span-1">
-            <h2 className="text-2xl font-black text-black dark:text-white">
+            <h2 className="text-2xl font-black text-black dark:text-white flex items-center gap-2">
+              <img src="/favicon.png" alt="Logo" className="w-7 h-7 rounded-full" />
               Grow with <span className="text-amber-500">Fakhri</span>
             </h2>
 

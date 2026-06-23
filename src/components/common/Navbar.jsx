@@ -91,7 +91,8 @@ export default function Navbar() {
     <div ref={navRef} className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-6xl flex flex-col gap-2">
       {/* MAIN BAR */}
       <div className="backdrop-blur-xl bg-white/70 dark:bg-zinc-950/70 border border-black/10 dark:border-white/10 rounded-full px-4 md:px-6 py-3 flex justify-between items-center shadow-lg transition-colors duration-300">
-        <h1 className="font-heading font-extrabold text-base tracking-tight text-black dark:text-white">
+        <h1 className="font-heading font-extrabold text-base tracking-tight text-black dark:text-white flex items-center gap-2">
+          <img src="/favicon.png" alt="Logo" className="w-6 h-6 rounded-full" />
           Grow with <span className="text-amber-500">Fakhri</span>
         </h1>
 
