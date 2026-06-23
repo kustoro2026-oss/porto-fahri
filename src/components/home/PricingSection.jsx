@@ -37,7 +37,6 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
         <div className="grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-center gap-2 sm:gap-3 mb-16 w-full">
           {[
             { label: t("Landing Page", "Landing Page"), value: "landingpage" },
-            { label: t("Aplikasi Mobile", "Mobile Apps"), value: "mobileapps" },
             { label: t("Sistem Web", "Web System"), value: "websystem" },
             { label: t("Kustom", "Custom"), value: "custom" },
           ].map((item) => (
@@ -76,9 +75,9 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
                   
                   {/* PRICING AREA */}
                   <div className="mb-6">
-                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 999.000</span>
+                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 3.000.000</span>
                     <h2 className="text-4xl md:text-5xl font-black text-amber-500 tracking-tight">
-                      Rp 499<span className="text-lg text-zinc-500">.000</span>
+                      Rp 1.500<span className="text-lg text-zinc-500">.000</span>
                     </h2>
                   </div>
 
@@ -146,9 +145,9 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
 
                   {/* PRICING AREA */}
                   <div className="mb-6">
-                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 1.999.000</span>
+                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 5.000.000</span>
                     <h2 className="text-4xl md:text-5xl font-black text-zinc-900 dark:text-white tracking-tight">
-                      Rp 999<span className="text-lg text-zinc-500">.000</span>
+                      Rp 2.500<span className="text-lg text-zinc-500">.000</span>
                     </h2>
                   </div>
 
@@ -197,134 +196,6 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
             </>
           )}
 
-          {/* MOBILE APPS TAB */}
-          {pricingTab === "mobileapps" && (
-            <>
-              {/* STARTER MOBILE APP */}
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }} 
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="bg-white dark:bg-zinc-900/40 border border-black/5 dark:border-white/5 rounded-[2.5rem] p-8 flex flex-col justify-between shadow-xl min-h-[480px] relative overflow-hidden group hover:border-zinc-300 dark:hover:border-zinc-800 transition-all duration-300"
-              >
-                <div className="text-left">
-                  <div className="flex justify-between items-center mb-3">
-                    <span className="text-xs font-bold text-zinc-500 uppercase tracking-widest">{t("Mobile Starter", "Mobile Starter")}</span>
-                    <span className="text-[10px] font-black text-emerald-500 bg-emerald-500/10 px-2 py-0.5 rounded-md uppercase tracking-wider">{t("Hemat 50%", "Save 50%")}</span>
-                  </div>
-                  <h3 className="text-xl font-bold mb-4 text-zinc-900 dark:text-white">{t("Basic Mobile App", "Basic Mobile App")}</h3>
-
-                  {/* PRICING AREA */}
-                  <div className="mb-6">
-                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 3.999.000</span>
-                    <h2 className="text-4xl md:text-5xl font-black text-amber-500 tracking-tight">
-                      Rp 1.999<span className="text-lg text-zinc-500">.000</span>
-                    </h2>
-                  </div>
-
-                  <hr className="border-zinc-200 dark:border-zinc-800 my-6" />
-
-                  <ul className="text-zinc-600 dark:text-zinc-400 text-xs sm:text-sm space-y-3 mb-8 font-semibold">
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("1 Platform Rilis (Android atau iOS)", "1 Release Platform (Android or iOS)")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Desain Modern UI/UX Interaktif", "Modern Interactive UI/UX Design")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Fitur Utama Mandiri & Integrasi API Dasar", "Independent Core Features & Basic API Integration")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Dibantu Upload ke Google Play / App Store", "Assisted Upload to Google Play / App Store")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Garansi Perbaikan Bug Sistem selama 3 Bulan", "3-Month System Bug Repair Warranty")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Konsultasi Teknis & Alur Sistem Awal", "Technical Consultation & Initial System Flow")}</span>
-                    </li>
-                  </ul>
-                </div>
-                <a 
-                  href={`${waLink}%20Mobile%20Apps%20Starter`} 
-                  className="block text-center bg-zinc-100 dark:bg-white/5 hover:bg-black hover:text-white dark:hover:bg-white/10 text-black dark:text-white py-3.5 rounded-2xl text-xs sm:text-sm font-black transition-all"
-                >
-                  {t("Pilih Starter Mobile", "Choose Starter Mobile")}
-                </a>
-              </motion.div>
-
-              {/* PRO MOBILE APP */}
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }} 
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.1 }} 
-                className="relative bg-white dark:bg-zinc-900 border-2 border-amber-400 rounded-[2.5rem] p-8 md:-translate-y-4 shadow-2xl shadow-amber-500/20 flex flex-col justify-between min-h-[500px]"
-              >
-                <div className="absolute top-5 right-5 bg-amber-500 text-black text-[9px] font-black px-3 py-1 rounded-full uppercase tracking-wider animate-pulse flex items-center gap-1">
-                  <Flame size={10} />
-                  {t("Paling Laris", "Best Seller")}
-                </div>
-                <div className="text-left">
-                  <div className="flex justify-between items-center mb-3">
-                    <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">{t("Mobile Pro", "Mobile Pro")}</span>
-                    <span className="text-[10px] font-black text-emerald-500 bg-emerald-500/10 px-2 py-0.5 rounded-md uppercase tracking-wider">{t("Hemat 50%", "Save 50%")}</span>
-                  </div>
-                  <h3 className="text-xl sm:text-2xl font-black mb-4 text-zinc-900 dark:text-white">{t("Pro Mobile App", "Pro Mobile App")}</h3>
-
-                  {/* PRICING AREA */}
-                  <div className="mb-6">
-                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 7.999.000</span>
-                    <h2 className="text-4xl md:text-5xl font-black text-zinc-900 dark:text-white tracking-tight">
-                      Rp 3.999<span className="text-lg text-zinc-500">.999</span>
-                    </h2>
-                  </div>
-
-                  <hr className="border-zinc-200 dark:border-zinc-800 my-6" />
-
-                  <ul className="text-zinc-600 dark:text-zinc-300 text-xs sm:text-sm space-y-3 mb-8 font-semibold">
-                    <li className="flex items-start gap-2.5 text-amber-600 dark:text-amber-400 font-bold">
-                      <Zap size={16} className="shrink-0 mt-0.5" />
-                      <span>{t("Multiplatform Rilis Langsung (Android & iOS)", "Instant Multiplatform Release (Android & iOS)")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Desain UI/UX Kustom High-Fidelity (Figma)", "Custom High-Fidelity UI/UX Design (Figma)")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Integrasi Payment Gateway & Maps API", "Payment Gateway & Maps API Integration")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Fitur Realtime Push Notifications & Fitur Chat", "Realtime Push Notifications & Chat Features")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Admin Panel berbasis Web untuk Kelola Konten & Data", "Web-based Admin Panel to Manage Content & Data")}</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <Check size={16} className="text-emerald-500 shrink-0 mt-0.5" />
-                      <span>{t("Garansi & Dukungan Pemeliharaan Premium 6 Bulan", "6-Month Premium Maintenance & Support")}</span>
-                    </li>
-                  </ul>
-                </div>
-                <a 
-                  href={`${waLink}%20Mobile%20Apps%20Pro`} 
-                  className="block text-center bg-gradient-to-r from-amber-500 to-orange-500 text-white py-4 rounded-2xl text-xs sm:text-sm font-black transition-all shadow-lg hover:scale-[1.02]"
-                >
-                  {t("Mulai Buat Sekarang", "Get Started Now")}
-                </a>
-              </motion.div>
-            </>
-          )}
-
           {/* WEB SYSTEM TAB */}
           {pricingTab === "websystem" && (
             <>
@@ -344,9 +215,9 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
 
                   {/* PRICING AREA */}
                   <div className="mb-6">
-                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 3.000.000</span>
+                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 6.000.000</span>
                     <h2 className="text-4xl md:text-5xl font-black text-amber-500 tracking-tight">
-                      Rp 1.499<span className="text-lg text-zinc-500">.999</span>
+                      Rp 3.000<span className="text-lg text-zinc-500">.000</span>
                     </h2>
                   </div>
 
@@ -404,13 +275,13 @@ export default function PricingSection({ pricingTab, setPricingTab, waLink }) {
                     <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">{t("Web System Custom", "Custom Web System")}</span>
                     <span className="text-[10px] font-black text-emerald-500 bg-emerald-500/10 px-2 py-0.5 rounded-md uppercase tracking-wider">{t("Hemat 50%", "Save 50%")}</span>
                   </div>
-                  <h3 className="text-xl sm:text-2xl font-black mb-4 text-zinc-900 dark:text-white">{t("Custom Web System / ERP", "Custom Web System / ERP")}</h3>
+                  <h3 className="text-xl sm:text-2xl font-black mb-4 text-zinc-900 dark:text-white">{t("Custom Web System", "Custom Web System")}</h3>
 
                   {/* PRICING AREA */}
                   <div className="mb-6">
-                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 7.000.000</span>
+                    <span className="text-xs font-bold text-zinc-400 line-through dark:text-zinc-500 block mb-1">Rp 10.000.000</span>
                     <h2 className="text-4xl md:text-5xl font-black text-zinc-900 dark:text-white tracking-tight">
-                      Rp 3.499<span className="text-lg text-zinc-500">.999</span>
+                      Rp 5.000<span className="text-lg text-zinc-500">.000</span>
                     </h2>
                   </div>
 

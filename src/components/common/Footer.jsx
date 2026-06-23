@@ -1,4 +1,4 @@
-import { MessageCircle, Mail, ArrowRight, Code2, Smartphone, Globe } from "lucide-react";
+import { MessageCircle, Mail, ArrowRight, Code2, Globe } from "lucide-react";
 import { useLanguage } from "../../context/LanguageContext";
 
 const InstagramIcon = ({ className }) => (
@@ -50,7 +50,7 @@ export default function Footer() {
             </h2>
 
             <p className="text-zinc-600 dark:text-zinc-400 text-sm leading-relaxed font-medium">
-              {t("Partner digitalisasi tepercaya untuk pembuatan landing page premium, pengembangan aplikasi mobile, serta sistem web kustom guna mengotomatisasi operasional Anda.", "Trusted digitalization partner for creating premium landing pages, developing mobile apps, and custom web systems to automate your operations.")}
+              {t("Partner digitalisasi tepercaya untuk pembuatan landing page premium, serta sistem web kustom guna mengotomatisasi operasional Anda.", "Trusted digitalization partner for creating premium landing pages and custom web systems to automate your operations.")}
             </p>
           </div>
 
@@ -65,12 +65,6 @@ export default function Footer() {
                 <a href="#harga" className="group flex items-center gap-2 hover:text-amber-500 transition-colors duration-300">
                   <Globe className="w-4 h-4" />
                   <span className="group-hover:translate-x-1 transition-transform duration-300">{t("Landing Page Premium", "Premium Landing Pages")}</span>
-                </a>
-              </li>
-              <li>
-                <a href="#harga" className="group flex items-center gap-2 hover:text-amber-500 transition-colors duration-300">
-                  <Smartphone className="w-4 h-4" />
-                  <span className="group-hover:translate-x-1 transition-transform duration-300">{t("Aplikasi Mobile (iOS/Android)", "Mobile Apps (iOS/Android)")}</span>
                 </a>
               </li>
               <li>

@@ -63,8 +63,6 @@ export default function ProjectDetailModal({ project, onClose }) {
                     {t(
                       project.category === "landing page"
                         ? "Landing Page"
-                        : project.category === "mobile app"
-                        ? "Aplikasi Mobile"
                         : project.category === "sistem berbasis web"
                         ? "Sistem Berbasis Web"
                         : project.category === "software"
@@ -72,8 +70,6 @@ export default function ProjectDetailModal({ project, onClose }) {
                         : project.category,
                       project.category === "landing page"
                         ? "Landing Page"
-                        : project.category === "mobile app"
-                        ? "Mobile App"
                         : project.category === "sistem berbasis web"
                         ? "Web-based System"
                         : project.category === "software"

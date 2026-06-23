@@ -7,7 +7,6 @@ export default function DemoCard({ demo }) {
 
   const categoryNames = {
     "landing page": t("Website", "Website"),
-    "mobile app": t("Aplikasi Mobile", "Mobile App"),
     "sistem berbasis web": t("Sistem Web", "Web System"),
     "software": t("Software", "Software")
   };

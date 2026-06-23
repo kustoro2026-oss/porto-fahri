@@ -137,8 +137,8 @@ export default function HeroSection() {
             className="mt-4 text-xs md:text-sm leading-relaxed text-zinc-600 dark:text-zinc-400 max-w-xl text-center font-medium"
           >
             {t(
-              "Grow with Fakhri adalah startup digitalisasi modern yang membantu membangun Landing Page, Aplikasi Mobile, hingga Sistem Web Custom untuk mempercepat pertumbuhan bisnis Anda.",
-              "Grow with Fakhri is a modern digitalization startup that helps build Landing Pages, Mobile Apps, and Custom Web Systems to accelerate your business growth."
+              "Grow with Fakhri adalah startup digitalisasi modern yang membantu membangun Landing Page, hingga Sistem Web Custom untuk mempercepat pertumbuhan bisnis Anda.",
+              "Grow with Fakhri is a modern digitalization startup that helps build Landing Pages and Custom Web Systems to accelerate your business growth."
             )}
           </motion.p>
 

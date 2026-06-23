@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import DemoCard from "../cards/DemoCard";
 import {
   LayoutGrid,
-  Smartphone,
   Globe,
   MonitorSmartphone,
   Code2,
@@ -25,7 +24,6 @@ export default function DemoSection({ filter, setFilter, filtered }) {
   const categories = [
     { id: "all", label: t("Semua Karya", "All Works"), icon: LayoutGrid },
     { id: "landing page", label: t("Website", "Websites"), icon: Globe },
-    { id: "mobile app", label: t("Aplikasi Mobile", "Mobile Apps"), icon: Smartphone },
     { id: "sistem berbasis web", label: t("Sistem Web", "Web Systems"), icon: MonitorSmartphone },
     { id: "software", label: t("Software", "Software"), icon: Code2 },
   ];
@@ -35,8 +33,6 @@ export default function DemoSection({ filter, setFilter, filtered }) {
     switch(id) {
       case "landing page": 
         return t("Landing pages modern dengan desain profesional, responsive, dan fokus pada konversi.", "Modern landing pages with professional design, responsive layout, and focus on conversions.");
-      case "mobile app":
-        return t("Aplikasi mobile & PWA untuk operasional bisnis, inventory, dan monitoring.", "Mobile apps & PWA for business operations, inventory, and monitoring.");
       case "sistem berbasis web":
         return t("Dashboard interaktif, ERP, CRM, dan sistem manajemen internal perusahaan.", "Interactive dashboard, ERP, CRM, and company internal management system.");
       case "software":
@@ -151,16 +147,6 @@ export default function DemoSection({ filter, setFilter, filtered }) {
                 {displayItems.map((demo, i) => (
                   <DemoCard key={demo.id || i} demo={demo} />
                 ))}
-                
-                {/* Special Section for Mobile App if filter matches */}
-                {(filter === "all" || filter === "mobile app") && (
-                   // Adding mock mobile apps if they are not in the 'filtered' prop
-                   // but based on the code provided, they were hardcoded before.
-                   // For a cleaner look, I'll only show what's in 'filtered' 
-                   // unless we want to keep those hardcoded ones.
-                   // The USER mentioned it's too crowded, so I'll stick to filtered data.
-                   null
-                )}
               </motion.div>
             )}
           </AnimatePresence>

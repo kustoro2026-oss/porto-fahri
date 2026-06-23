@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function FounderSection() {
   const { t } = useLanguage();
   // CONFIGURABLE LINKS - Silakan ubah URL di bawah ini sesuai keinginan Anda
-  const portfolioUrl = "https://demo.com/";
+  const portfolioUrl = "#";
   const githubUrl = "https://github.com/";
   const instagramUrl = "https://www.instagram.com/growwithfakhri";
   const linkedinUrl = "https://www.linkedin.com/in/fakhri-zaini";

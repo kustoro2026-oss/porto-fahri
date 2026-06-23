@@ -8,14 +8,12 @@ import umrohCoverImg from "../assets/UmrohCover.jpg";
 import akademikCoverImg from "../assets/AkademikCover.jpg";
 import warungOSCoverImg from "../assets/WarungOSCover.jpg";
 import examOSCoverImg from "../assets/ExamOSCover.jpg";
-import absenOSCoverImg from "../assets/AbsenOSCover.jpg";
-import posMobileCoverImg from "../assets/POSMobileCover.jpg";
 
 export const demos = [
   {
     id: "starbucks",
     name: "Starbucks",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Landing Page Informasi & Galeri Coffee Shop",
       en: "Coffee Shop Information & Gallery Landing Page"
@@ -39,7 +37,7 @@ export const demos = [
   {
     id: "aryamotor",
     name: "UD Arya Motor",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Jual Beli Motor Bekas Berkualitas di Tulungagung",
       en: "Quality Used Motorcycle Dealership in Tulungagung"
@@ -63,7 +61,7 @@ export const demos = [
   {
     id: "hotel",
     name: "Crown Victoria",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Website Hotel Bintang 4 Tulungagung + Planner Event",
       en: "4-Star Hotel Website in Tulungagung + Event Planner"
@@ -87,7 +85,7 @@ export const demos = [
   {
     id: "nikoniko",
     name: "Niko-Niko Ramen",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Website Ramen Jepang Kediri + Custom Order",
       en: "Japanese Ramen Website in Kediri + Custom Order"
@@ -111,7 +109,7 @@ export const demos = [
   {
     id: "unita",
     name: "Universitas Tulungagung",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Landing page kampus UNITA — Akreditasi B, Est. 1984",
       en: "UNITA Campus Landing Page — B Accreditation, Est. 1984"
@@ -135,7 +133,7 @@ export const demos = [
   {
     id: "aiolaundry",
     name: "Aio Laundry Express",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Aio Laundry Express Antar Jemput Tulungagung",
       en: "Aio Laundry Express Pickup & Delivery Tulungagung"
@@ -159,7 +157,7 @@ export const demos = [
   {
     id: "umroh",
     name: "Jabal Noor.official",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Biro Perjalanan Haji & Umroh Terpercaya di Trenggalek",
       en: "Trusted Hajj & Umrah Travel Agency in Trenggalek"
@@ -183,7 +181,7 @@ export const demos = [
   {
     id: "akademik",
     name: "Sistem Akademik",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Management sekolah + absensi geolocation",
       en: "School Management + Geolocation Attendance"
@@ -207,7 +205,7 @@ export const demos = [
   {
     id: "warungos",
     name: "WarungOS",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Sistem Kasir & Stok Toko Klontong Modern",
       en: "Modern Grocery Shop Cashier & Stock System"
@@ -231,7 +229,7 @@ export const demos = [
   {
     id: "examos",
     name: "ExamOS",
-    path: "https://demo.com/",
+    path: "#",
     desc: {
       id: "Platform Ujian Online & Bank Soal Modern",
       en: "Online Examination & Modern Question Bank Platform"
@@ -250,54 +248,6 @@ export const demos = [
       { id: "Sistem Timer & Auto-Submit Ujian", en: "Exam Timer & Auto-Submit System" },
       { id: "Penilaian Otomatis Pilihan Ganda", en: "Automatic Multiple Choice Grading" },
       { id: "Proteksi Layar (Anti-Copy & Switch Tab)", en: "Screen Protection (Anti-Copy & Switch Tab)" }
-    ]
-  },
-  {
-    id: "absenos",
-    name: "AbsenOS",
-    path: "https://demo.com/",
-    desc: {
-      id: "Absensi Mobile dengan Biometrik & Geolocation",
-      en: "Mobile Attendance with Biometric & Geolocation"
-    },
-    icon: "📱",
-    category: "mobile app",
-    image: absenOSCoverImg,
-    client: "Corporate/Perusahaan",
-    fullDescription: {
-      id: "Aplikasi mobile modern untuk presensi karyawan, mengkombinasikan keamanan pengenalan wajah (biometric facial recognition) dan pelacakan lokasi akurat untuk memastikan kedisiplinan serta validasi kehadiran di area kerja.",
-      en: "Modern mobile application for employee attendance, combining biometric facial recognition and accurate location tracking to ensure discipline and attendance validation in the work area."
-    },
-    techStack: ["React Native", "Firebase", "Google Maps API", "Face Recognition SDK"],
-    features: [
-      { id: "Presensi dengan Pengenalan Wajah", en: "Facial Recognition Attendance" },
-      { id: "Validasi Lokasi (Geofencing)", en: "Location Validation (Geofencing)" },
-      { id: "Riwayat Kehadiran Karyawan", en: "Employee Attendance History" },
-      { id: "Pengajuan Cuti & Izin Terintegrasi", en: "Integrated Leave & Permission Application" }
-    ]
-  },
-  {
-    id: "posmobile",
-    name: "POS Mobile",
-    path: "#",
-    desc: {
-      id: "Aplikasi kasir mobile untuk bisnis UMKM",
-      en: "Mobile cashier app for UMKM businesses"
-    },
-    icon: "💰",
-    category: "mobile app",
-    image: posMobileCoverImg,
-    client: "UMKM Lokal",
-    fullDescription: {
-      id: "Versi mobile dari sistem kasir konvensional, membantu pedagang kecil, food truck, atau event organizer untuk memproses transaksi dengan cepat hanya dengan menggunakan smartphone dan printer thermal bluetooth.",
-      en: "A mobile version of the conventional cashier system, helping small merchants, food trucks, or event organizers to process transactions quickly using just a smartphone and bluetooth thermal printer."
-    },
-    techStack: ["Flutter", "Dart", "SQLite", "Bluetooth Serial API"],
-    features: [
-      { id: "Kasir Offline Mode", en: "Offline Cashier Mode" },
-      { id: "Koneksi ke Bluetooth Thermal Printer", en: "Connection to Bluetooth Thermal Printer" },
-      { id: "Manajemen Katalog Produk & Variasi", en: "Product Catalog & Variation Management" },
-      { id: "Rekapitulasi Omset Cepat", en: "Fast Turnover Recapitulation" }
     ]
   },
 ];
